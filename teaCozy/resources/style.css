@@ -1,0 +1,129 @@
+body{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity:.9;
+    align-content: center;
+    text-align: center;
+    margin:0;
+}
+
+header{
+
+    height:69px;
+    position:fixed;
+    border-bottom:1px solid seashell;
+    width: 100%;
+    z-index: 1;
+    align-items: center;
+    background-color: black;
+}
+
+a{
+    color: seashell;
+}
+
+header img{
+    padding-left:10px;
+    height:50px;
+}
+
+nav{
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav span{
+    text-decoration: underline;
+    padding: 20px 15px;
+}
+
+h2, h3, h4{
+    padding: 5px;
+    margin:0;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.main-content{
+    padding-top:69px;
+    width:1200px;
+    margin:auto;
+    opacity: 0.9;
+}
+
+.content{
+    opacity: .8; /*thought it looked nicer :) */
+}
+
+.tea{
+    padding:5px;
+}
+
+.tea img{
+    height:200px;
+    margin:10px;
+    display: block;
+    border-radius: 5px;
+}
+
+.month{
+    height:700px;
+    width:1000px;
+    margin:auto;
+    padding-top:70px;
+
+}
+
+ .locations{
+    padding:10px;
+}
+
+.location{
+    padding:10px;
+    margin:5px 20px;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 280px;
+    opacity: .8; /*thought it looked nicer */
+}
+
+.footer{
+    text-align: left;
+    padding-left:20px;
+}
+
+#contact{
+    height:200px;
+
+}
+
+#ourmission{
+    padding-top:70px;
+    height:700px;
+    background-image: url('./images/mission.jpg');
+}
+
+#ourmission .content{
+    margin: auto;
+    background-color: black;
+    width: 100%;
+}
+
+#locations .container{
+    margin:auto;
+    width:1100px;
+}
+
+#locations{
+    padding-top: 70px;
+    background-image: url('./images/background.jpg');
+    height:500px;
+}
